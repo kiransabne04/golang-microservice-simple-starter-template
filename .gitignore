@@ -23,8 +23,7 @@ go.work.sum
 
 # env file
 .env
-project-config/db-data/postgres
-project-config/db-data/mongo
+project-config/db-data/
 
 authentication-service/authApp
 broker-service/brokerApp
