@@ -32,10 +32,6 @@ The services communicate using REST, gRPC, and RPC protocols, with RabbitMQ serv
 
 The project is designed following a microservice architecture. Below is the architectural flow diagram:
 
-mermaid
-
-Copy code
-
 `graph TD;
   Frontend-->|HTTP REST|Broker;
   Broker-->|RPC/gRPC|Logger;
